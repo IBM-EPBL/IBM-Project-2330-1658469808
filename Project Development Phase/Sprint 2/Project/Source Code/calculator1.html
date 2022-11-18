@@ -1,0 +1,102 @@
+<html>
+    <link rel="stylesheet" href="calcss.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+
+    
+    <script src="java.js"></script>   
+    
+<head>
+  <title>Your Name</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                  
+        
+    
+    
+        
+        </div>
+        <nav>
+            <ul>
+                <li><a href="farm.html">Home</a></li>
+                <li><a href="Login.html">Account</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                
+
+                
+
+            </ul>
+        </nav>
+       
+    </div>
+
+  <div class="row">
+      <h1>Predicting Heart Diseases</h1> </div>
+  <div></div>
+
+
+  <form>
+    <label for="age">Age(in years)</label>
+    <input type="int" name="age" class="form-control" ngModel>
+    <br><br>
+    <label for="sex">Sex(0-Female,1-Male)</label>
+    <input type="int" name="sex" class="form-control" ngModel>
+    <br><br>
+    <label for="painType">Chest Pain Type 
+        <li>
+        Value 1: Typical angina</li><li>
+        Value 2: Atypical angina</li><li>								
+        Value 3: Non-anginal pain</li><li>							
+        Value 4: Asymptomatic
+        </li>
+    </label>
+    <input type="int" name="age" class="form-control" ngModel>
+    <br><br>
+    <label for="bp">BP</label>
+    <input type="int" name="bp" class="form-control" ngModel>
+    <br><br>
+    <label for="cholestrol">Cholestrol</label>
+    <input type="int" name="cholestrol" class="form-control" ngModel>
+    <br><br>
+    <label for="fbs">FBS(fasting blood sugar > 120 mg/dl (1 = true; 0 = false))</label>
+    <input type="int" name="fbs" class="form-control" ngModel>
+    <br><br>
+    <label for="ekg">EKG(resting electrocardiographic results)
+        <li>Value 0: Normal</li>
+        <li>Value 1: Having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)</li>										
+        <li>Value 2: Showing probable or definite left ventricular hypertrophy by Estes' criteria</li>
+    </label>
+    <input type="int" name="ekg" class="form-control" ngModel>
+    <br><br>
+    <label for="hr">Max HR (maximum heart rate achieved)</label>
+    <input type="int" name="hr" class="form-control" ngModel>
+    <br><br>
+    <label for="ex">Exercise angina (exercise induced angina (1 = yes; 0 = no))</label>
+    <input type="int" name="ex" class="form-control" ngModel>
+    <br><br>	
+    <label for="st">ST depression</label>
+    <input type="float" name="st" class="form-control" ngModel>
+    <br><br>
+    <label for="sot">Slope of ST</label>
+    <input type="float" name="sot" class="form-control" ngModel>
+    <br><br>
+    <label for="fluro">Number of vessels fluro (number of major vessels (0-3) colored by flourosopy)</label>
+    <input type="int" name="fluro" class="form-control" ngModel>
+    <br><br>
+    <label for="thal">Thallium: 3 = Normal; 6 = Fixed defect; 7 = Reversable defect</label>
+    <input type="int" name="thal" class="form-control" ngModel>
+    <br><br>	
+
+
+    <button class="btn btn-submit" type="submit">Submit</button>
+</form>
+  
+</body>
+
+
+</html>
